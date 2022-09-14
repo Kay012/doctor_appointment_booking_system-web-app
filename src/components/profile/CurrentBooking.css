@@ -1,0 +1,16 @@
+.current__booking {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 15px 0;
+    padding: 10px;
+}
+
+.booking__top{
+    display: flex;
+    align-items: center;
+}
+
+.service{
+    display: flex;
+    align-items: center;
+}

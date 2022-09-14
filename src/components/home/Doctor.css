@@ -1,0 +1,49 @@
+.body__container{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 15px 0;
+    padding: 10px;
+    justify-content: space-between;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    
+}
+.doctor__body{
+    display: flex;
+    flex-direction: column;
+}
+.doctor__top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.doc__container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.top__container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.doc__bottom{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.doc__right{
+    
+}
+.options{
+    display: flex;
+    flex-direction: column;
+    min-width: 100px;
+    /* box-shadow: 0 0 35px #eee */
+
+}

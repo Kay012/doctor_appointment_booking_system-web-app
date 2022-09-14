@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: Google Sans,Noto Sans,Noto Sans JP,Noto Sans KR,Noto Naskh Arabic,Noto Sans Thai,Noto Sans Hebrew,Noto Sans Bengali,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.head{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  background-color: #fff;
+  z-index: 888;
+  top: 0;
+}
+
+.mainpages{
+  max-width: 800px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 100px;
+  box-shadow: 0 0 35px #eee;
+  position: relative;
+}
+
+
